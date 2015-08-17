@@ -61,7 +61,7 @@
 	{
 	  name     :: if_name(),          %% interface name
 	  index    :: non_neg_integer(),  %% interface index
-	  attr     :: dict()              %% attributes {atom(),term}
+	  attr     :: dict:dict()              %% attributes {atom(),term}
 	}).
 
 -record(addr,
