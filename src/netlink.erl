@@ -69,7 +69,7 @@
 	  addr     :: if_addr(),          %% the address
 	  name     :: if_name(),          %% interface label
 	  index    :: non_neg_integer(),  %% interface index
-	  attr     :: dict()              %% attributes
+	  attr     :: dict:dict()              %% attributes
 	}).
 
 -record(subscription,
